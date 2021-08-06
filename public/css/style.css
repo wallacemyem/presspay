@@ -14154,7 +14154,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	}
 	.banner-img-item{
 		min-height:50px !important;
-		height:250px !important;
+		height:550px !important;
 	}
 	.btn-left1{
 		width:inherit;
@@ -14230,7 +14230,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	background-image:url(../images/check.svg);background-position:290px 180px;background-repeat: no-repeat;background-attachment: relative;
 }
 .banner-img-item{
-	height:550px; width:100%;background:url(../images/student.png) center center; background-size:cover; border-radius:30px
+	height:950px; width:100%;background:url(../images/student.png) center center; background-size:cover; border-radius:30px
 }
 .faq{
 	background:url(../images/faq.png) center center; background-size:cover; border-radius:30px

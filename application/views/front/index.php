@@ -112,7 +112,7 @@
       </section>
       <section class="section section-lg bg-default why-us">
         <div class="left-dot wow slideInRight" data-wow-delay="2.5s"></div>
-        <div class="right-dot wow slideInLeft" data-wow-delay="3.5s"></div>
+        <div class="right-dot wow slideInLeft" data-wow-delay="1.5s"></div>
         <div class="container">
           <div class="row row-50">
             <div class="col-12 text-center">
@@ -133,8 +133,8 @@
       <section class="section section-lg text-center bg-gray-100">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-lg-6 col-xl-6 section-img text-right pr-5 left-other-dot wow slideInLeft" data-wow-delay="1.5s">
-              <img src="<?= base_url() ?>public/images/student_phone.png" class="wow slideInUp" data-wow-delay="3.5s">
+            <div class="col-md-6 col-lg-6 col-xl-6 section-img text-right pr-5 left-other-dot">
+              <img src="<?= base_url() ?>public/images/student_phone.png" class="wow slideInUp" data-wow-delay="0.5s">
             </div>
             <div class="col-md-6 col-lg-5 col-xl-5 text-left">
               <button class="cta-header">We Pay, You Pay</button>
