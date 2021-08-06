@@ -89,7 +89,7 @@
                     </span>
                     <p class="font-weight-exlight-p wow-outer" >
                       <span class="wow slideInUp" data-wow-delay="1.1s">
-                        We help co-fund your tuition year after year till you graduate giving you a short-term soft loan to facilitate the prompt payment of your tuition fees per academic calendar
+                        We help co-fund your tuition year after year till you graduate giving you a short-term <br> soft loan to facilitate the prompt payment of your tuition fees per academic calendar
                       </span>
                     </p>
                   </h1>
@@ -222,10 +222,10 @@
               <div class="container">
                 <div class="row text-left stores">
                   <div class="left-50">
-                    <img src="<?= base_url() ?>public/images/apple.png" class="wow fadeInRight" data-wow-delay="0.5s"/>
+                    <img src="<?= base_url() ?>public/update/store.png" class="wow fadeInRight" data-wow-delay="0.5s"/>
                   </div>
                   <div class="left-50">
-                    <img src="<?= base_url() ?>public/images/play.png" class="p-0 wow fadeInLeft" data-wow-delay="1.5s"/>
+                    <img src="<?= base_url() ?>public/update/play.png" class="p-0 wow fadeInLeft" data-wow-delay="1.5s"/>
                   </div>
                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 pl-0 play pt-0 wow fadeInLeft" data-wow-delay="2.5s">
                   </div>
