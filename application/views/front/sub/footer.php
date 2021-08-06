@@ -17,10 +17,10 @@
                     <div class="container">
                         <div class="row text-left stores pt-3 pb-3">
                             <div class="pr-2 left-50">
-                                <img src="<?= base_url() ?>public/images/apple.png"/>
+                                <img src="<?= base_url() ?>public/update/store.png"/>
                             </div>
                             <div class="play left-50">
-                                <img src="<?= base_url() ?>public/images/play.png" class="p-0"/>
+                                <img src="<?= base_url() ?>public/update/play.png" class="p-0"/>
                             </div>
                         </div>
                         <div class="row mt-0">
