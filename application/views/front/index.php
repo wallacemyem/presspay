@@ -309,7 +309,7 @@
       <section class="section section-lg text-center pt-2">
         <div class="brands">
             <div class="container">
-              <h3 class="section-title mb-0 wow slideInLeft" data-wow-delay="1.5s">As featured in</h3>
+              <h3 class="section-title mb-0 wow slideInLeft" data-wow-delay="0.5s">As featured in</h3>
               <div class="slick-widget-testimonials wow fadeIn mt-0">
                   <div class="row pt-0 mt-0">
                       <div class="col">
