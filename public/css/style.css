@@ -14422,7 +14422,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .bg-banner .banner-img-item:hover {
 	-webkit-box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
 	-moz-box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
-	box-shadow: 0px 0px 100px 0px rgba(255,165,0,1);
+	box-shadow: 0px 0px 100px 0px rgba(236,33,51,1);
 	transition: .8s ease;
 }
 .wow1 {
