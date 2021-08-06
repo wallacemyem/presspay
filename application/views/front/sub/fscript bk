@@ -1,0 +1,61 @@
+    <div class="preloader">
+      <div class="preloader-logo"><img src="<?php echo base_url() ?>public/images/logo-default-176x28.png" alt="" width="176" height="28" srcset="<?php echo base_url() ?>public/images/logo-default-352x56.png 2x"/>
+      </div>
+      <div class="preloader-body">
+        <div id="loadingProgressG">
+          <div class="loadingProgressG" id="loadingProgressG_1"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="<?php echo base_url() ?>public/js/core.min.js"></script>
+    <script src="<?php echo base_url() ?>public/js/script.js"></script>
+    <script>
+        var app = angular.module('app', ['toastr']);
+        app.controller('formCtrl', function($scope,$http,toastr) {
+            var url = window.location.href;
+            //url = 'https://valpaint.com.ng';
+            var urlArr = url.split('localhost');
+            if(urlArr.length>1){
+                $scope.base_url = 'http://localhost/bil/';
+            }
+            else{
+                $scope.base_url = 'https://bilficom.com/';
+            }
+            $scope.form = {};
+            //$scope.form.name = "John";
+            $scope.submitForm = function(){
+                if($scope.isLoading)
+                return;
+                if($scope.form.name && $scope.form.email && $scope.form.phone && $scope.form.msg){
+                    $scope.isLoading = true;
+                    //send message
+                    $http.post($scope.base_url,JSON.stringify($scope.form))
+                    .then(function(response) {
+                        $scope.isLoading = false;
+                        if(response.data && response.data.status){
+                            $scope.response = response.data;
+                            toastr.success(response.data.message);
+                            $scope.form = {};
+                        }
+                        else if(response.data && !response.data.status){
+                            toastr.warning(response.data.message);
+                        }
+                        else{
+                            toastr.warning('An error occured while connecting to server');
+                        }
+                    },function(error){
+                        $scope.isLoading = false;
+                        toastr.warning('An error occured while connecting to server');
+                    });
+                }
+            }
+        });
+    </script>
+    <style>
+        .label{
+            text-align:left !important;
+        }
+    </style>

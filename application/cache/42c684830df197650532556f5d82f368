@@ -1,0 +1,81 @@
+a:2:{s:6:"expire";i:1546711508;s:7:"headers";a:2:{i:0;a:2:{i:0;s:53:"Cache-Control: public, max-age=86400, must-revalidate";i:1;b:1;}i:1;a:2:{i:0;s:13:"Pragma: cache";i:1;b:1;}}}ENDCI---><!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title ng-cloak>{{title}}Sync</title>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sync"/>
+    <meta property="og:image" content="http://localhost/rest/public/images/logo.png"/>
+    <meta property="og:url" content="http://localhost/rest/sync"/>
+    <meta property="og:site_name" content="Under60 Tickets"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="twitter:title" content="Sync"/>
+    <meta property="twitter:image" content="http://localhost/rest/upload/public/images/logo.png"/>
+    <meta property="twitter:url" content="http://localhost/rest/sync"/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:description" content=""/>
+
+    <link href="http://localhost/rest/public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost/rest/public/css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+    <link href="http://localhost/rest/public/css/animate.min.css" rel="stylesheet"> 
+    <link href="http://localhost/rest/public/css/lightbox.css" rel="stylesheet"> 
+	<link href="http://localhost/rest/public/css/main.css" rel="stylesheet">
+	<link href="http://localhost/rest/public/css/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="http://localhost/rest/public/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost/rest/public/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost/rest/public/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost/rest/public/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://localhost/rest/public/images/ico/apple-touch-icon-57-precomposed.png">
+
+    <link rel="stylesheet" type="text/css" href="http://localhost/rest/public/css/vendors/animate1.css"/><link rel="stylesheet" type="text/css" href="http://localhost/rest/public/css/vendors/toastr.min.css"/><link rel="stylesheet" type="text/css" href="http://localhost/rest/public/css/vendors/datepicker.css"/><link rel="stylesheet" type="text/css" href="http://localhost/rest/public/css/vendors/angular-loading.css"/><link rel="stylesheet" type="text/css" href="http://localhost/rest/public/css/vendors/custom.css"/><link rel="stylesheet" type="text/css" href="http://localhost/rest/public/css/prettify.css1"/><link rel="stylesheet" type="text/css" href="http://localhost/rest/public/slim/ng-slim-scroll.css"/></head><!--/head-->
+
+<body ng-controller="syncCtrl">
+     <section id="coming-soon">
+         <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                <div id="form" dw-loading="loader" dw-loading-options="spinnerOptions">                    
+                    <div class="text-center">
+                        <form id="main-contact-form1" role="form" validation>
+                            <div class="form-group">
+                                <label class="control-label">Choose event to sync</label>                                       
+                                <select ng-options="event.id as event.title for event in events"
+                                    name="id" ng-model="sync.id" class="form-control required">
+                                    <option value=""> Select Event</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit" class="btn btn-submit" value="Sync">
+                            </div>
+                        </form>
+                    </div> 
+                </div>
+                </div>
+            </div>
+        </div>       
+    </section>
+    
+
+    <script type="text/javascript" src="http://localhost/rest/public/js/jquery.js"></script>
+    <script type="text/javascript" src="http://localhost/rest/public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://localhost/rest/public/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="http://localhost/rest/public/js/wow.min.js"></script>
+    <script type="text/javascript" src="http://localhost/rest/public/js/jquery.countTo.js"></script>   
+    <script type="text/javascript" src="http://localhost/rest/public/js/main.js"></script>   
+
+
+
+    <script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery-2.2.0.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery.appear.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery.nav.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery.easy-pie-chart.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery.validate.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery.mixitup.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery.sticky.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery.cokie.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/bootstrap-datepicker.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/owl-carousel/owl.carousel.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/respond.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/bootstrap1.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/materialize.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/angular.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/vendors/jquery/jquery-slimscroll.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/angular-slimscroll.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/ng-file-upload.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/toastr.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/spin.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/angular-loading.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/angular-animate-1.2.16.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/angular-resource.js"></script><script type="text/javascript" src="http://localhost/rest/public/js/ui-bootstrap-tpls.min.js"></script><script type="text/javascript" src="http://localhost/rest/public/scripts/app.js"></script><script type="text/javascript" src="http://localhost/rest/public/scripts/bootStrap.js"></script><script type="text/javascript" src="http://localhost/rest/public/scripts/directives/directive.js"></script><script type="text/javascript" src="http://localhost/rest/public/scripts/directives/validation.js"></script><script type="text/javascript" src="http://localhost/rest/public/scripts/directives/PaystackFee.js"></script><script type="text/javascript" src="http://localhost/rest/public/scripts/service.js"></script><script type="text/javascript" src="http://localhost/rest/public/scripts/controllers/homeCtrl.js"></script>    
+<script type="text/javascript" src="http://localhost/rest/public/scripts/controllers/syncCtrl.js"></script></body>
+</html>
