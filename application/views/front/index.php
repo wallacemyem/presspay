@@ -147,45 +147,7 @@
               </div>
             </div>
           </div>
-          <!--
-          <div class="row row-50">
-            <div class="col-6 col-md-3 wow-outer">
-              <article class="counter-minimal wow slideInUp" data-wow-delay=".1s">
-                <div class="counter-minimal-icon linearicons-mustache-glasses"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">22</div>
-                </div>
-                <h5 class="counter-minimal-title">Photography Awards</h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <article class="counter-minimal wow slideInUp" data-wow-delay=".1s">
-                <div class="counter-minimal-icon linearicons-camera2"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">156</div>
-                </div>
-                <h5 class="counter-minimal-title">Photo Shoots</h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <article class="counter-minimal wow slideInUp" data-wow-delay=".1s">
-                <div class="counter-minimal-icon linearicons-shutter"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">10</div>
-                </div>
-                <h5 class="counter-minimal-title">Years of Experience</h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <article class="counter-minimal wow slideInUp" data-wow-delay=".1s">
-                <div class="counter-minimal-icon linearicons-picture"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">392</div>
-                </div>
-                <h5 class="counter-minimal-title">Annual Clients</h5>
-              </article>
-            </div>
-          </div>-->
+         
         </div>
       </section>
       <section class="section section-lg bg-default">
@@ -234,6 +196,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-4 col-xl-4 text-right pr-5 pb-5">
               <h3 class="section-title smaller-title wow-outer text-left"><span class="wow slideInUp">How to get started</span></h3>
+              <br>
               <div class="number-wrap">
                 <div class="number-item wow fadeInRight" data-wow-delay="0.5s">
                   <div class="number">1</div>
@@ -271,7 +234,7 @@
             </div>
             <div class="col-lg-3 col-xl-3 text-left mobile-phone mb-3"></div>
             <div class="col-md-6 col-lg-5 col-xl-5 text-left">
-              <button class="cta-header">What's next?</button>
+            <h3 class="section-title smaller-title wow-outer text-left"><span class="wow slideInUp">How to get started</span></h3>
               <div class="number-wrap number-wrap-2 mt-4">
                 <div class="number-item wow fadeInRight" data-wow-delay="0.5s">
                   <div class="number">
