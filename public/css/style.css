@@ -7192,8 +7192,9 @@ html.boxed body {
 	font-weight: 200;
 }
 .font-weight-exlight-p {
-	font-size: 12px;
+	font-size: 14px;
 	text-align: justify;
+	line-height: 1.6;
 }
 
 .font-weight-light {
@@ -14368,7 +14369,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	height:450px;
 	background:#142458;
 	border-radius: 10px;
-	background: url(../images/phone.svg) no-repeat;
+	background: url(../update/PONE.png) no-repeat;
 	background-size: cover;
 }
 .shield img{
