@@ -88,7 +88,7 @@
                       <span class="wow slideInUp" data-wow-delay="1.5s">Providing financial aid to Nigerian Students in Tertiary institutions.</span>
                     </span>
                     <p class="font-weight-exlight-p wow-outer" >
-                      <span class="wow slideInUp" data-wow-delay="3.1s">
+                      <span class="wow slideInUp" data-wow-delay="1.1s">
                         We help co-fund your tuition year after year till you graduate giving you a short-term soft loan to facilitate the prompt payment of your tuition fees per academic calendar
                       </span>
                     </p>
@@ -102,7 +102,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-5 col-lg-5 col-xl-5 col-offset-1 banner-img wow fadeInRight" data-wow-delay="3.3s">
+                <div class="col-md-5 col-lg-5 col-xl-5 col-offset-1 banner-img wow fadeInRight" data-wow-delay="1.3s">
                   <div class="banner-img-item"> 
                   </div>
                 </div>
@@ -147,45 +147,7 @@
               </div>
             </div>
           </div>
-          <!--
-          <div class="row row-50">
-            <div class="col-6 col-md-3 wow-outer">
-              <article class="counter-minimal wow slideInUp" data-wow-delay=".1s">
-                <div class="counter-minimal-icon linearicons-mustache-glasses"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">22</div>
-                </div>
-                <h5 class="counter-minimal-title">Photography Awards</h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <article class="counter-minimal wow slideInUp" data-wow-delay=".1s">
-                <div class="counter-minimal-icon linearicons-camera2"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">156</div>
-                </div>
-                <h5 class="counter-minimal-title">Photo Shoots</h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <article class="counter-minimal wow slideInUp" data-wow-delay=".1s">
-                <div class="counter-minimal-icon linearicons-shutter"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">10</div>
-                </div>
-                <h5 class="counter-minimal-title">Years of Experience</h5>
-              </article>
-            </div>
-            <div class="col-6 col-md-3 wow-outer">
-              <article class="counter-minimal wow slideInUp" data-wow-delay=".1s">
-                <div class="counter-minimal-icon linearicons-picture"></div>
-                <div class="counter-minimal-main">
-                  <div class="counter">392</div>
-                </div>
-                <h5 class="counter-minimal-title">Annual Clients</h5>
-              </article>
-            </div>
-          </div>-->
+         
         </div>
       </section>
       <section class="section section-lg bg-default">
@@ -234,23 +196,24 @@
           <div class="row">
             <div class="col-md-6 col-lg-4 col-xl-4 text-right pr-5 pb-5">
               <h3 class="section-title smaller-title wow-outer text-left"><span class="wow slideInUp">How to get started</span></h3>
+              <br>
               <div class="number-wrap">
-                <div class="number-item wow fadeInRight" data-wow-delay="0.5s">
+                <div class="number-item" data-wow-delay="0.5s">
                   <div class="number">1</div>
                   <div class="number-text">Download app or start application here</div>
                   <div class="spacer" style="clear: both;"></div>
                 </div>
-                <div class="number-item wow slideInRight" data-wow-delay="1.5s">
+                <div class="number-item" data-wow-delay="1.5s">
                   <div class="number">2</div>
                   <div class="number-text mt-1">Register on the app</div>
                   <div class="spacer" style="clear: both;"></div>
                 </div>
-                <div class="number-item wow slideInLeft" data-wow-delay="2.0s">
+                <div class="number-item" data-wow-delay="2.0s">
                   <div class="number">3</div>
                   <div class="number-text">We carry out KYC and verify your application information</div>
                   <div class="spacer" style="clear: both;"></div>
                 </div>
-                <div class="number-item wow slideInRight" data-wow-delay="2.5s">
+                <div class="number-item" data-wow-delay="2.5s">
                   <div class="number">4</div>
                   <div class="number-text mt-1">We credit you 50% for your tuition</div>
                   <div class="spacer" style="clear: both;"></div>
@@ -271,37 +234,37 @@
             </div>
             <div class="col-lg-3 col-xl-3 text-left mobile-phone mb-3"></div>
             <div class="col-md-6 col-lg-5 col-xl-5 text-left">
-              <button class="cta-header">What's next?</button>
+            <h3 class="section-title smaller-title wow-outer text-left"><span class="wow slideInUp">What's Next?</span></h3>
               <div class="number-wrap number-wrap-2 mt-4">
-                <div class="number-item wow fadeInRight" data-wow-delay="0.5s">
+                <div class="number-item " data-wow-delay="0.5s">
                   <div class="number">
                     <svg class="Path_37842" viewBox="177.97 273.636 19.678 14.478"><path id="Path_37842" d="M 186.5176391601562 288.1143188476562 C 185.9148254394531 288.1143188476562 185.3332824707031 287.8836669921875 184.8937072753906 287.4674072265625 L 178.70849609375 281.6122436523438 C 177.7610626220703 280.7153930664062 177.7200927734375 279.22021484375 178.6169281005859 278.2727661132812 C 179.5137634277344 277.3253784179688 181.0087280273438 277.2841796875 181.9563903808594 278.1812133789062 L 186.3814849853516 282.3700561523438 L 193.5289001464844 274.41943359375 C 194.4010925292969 273.4491271972656 195.8946990966797 273.369873046875 196.8650207519531 274.2418518066406 C 197.8350830078125 275.1140441894531 197.9145660400391 276.607666015625 197.0423583984375 277.5779418945312 L 188.2743835449219 287.3312377929688 C 187.8484802246094 287.8048400878906 187.2494354248047 288.0865478515625 186.6128234863281 288.1123046875 C 186.5810241699219 288.1136474609375 186.5492248535156 288.1143188476562 186.5176391601562 288.1143188476562 Z M 186.5176391601562 288.1143188476562"></path></svg>
                   </div>
                   <div class="number-text">You commence a savings plan for the other 50% of your tuition</div>
                   <div class="spacer" style="clear: both;"></div>
                 </div>
-                <div class="number-item wow fadeInLeft" data-wow-delay="1.5s">
+                <div class="number-item" data-wow-delay="1.5s">
                   <div class="number">
                     <svg class="Path_37842" viewBox="177.97 273.636 19.678 14.478"><path id="Path_37842" d="M 186.5176391601562 288.1143188476562 C 185.9148254394531 288.1143188476562 185.3332824707031 287.8836669921875 184.8937072753906 287.4674072265625 L 178.70849609375 281.6122436523438 C 177.7610626220703 280.7153930664062 177.7200927734375 279.22021484375 178.6169281005859 278.2727661132812 C 179.5137634277344 277.3253784179688 181.0087280273438 277.2841796875 181.9563903808594 278.1812133789062 L 186.3814849853516 282.3700561523438 L 193.5289001464844 274.41943359375 C 194.4010925292969 273.4491271972656 195.8946990966797 273.369873046875 196.8650207519531 274.2418518066406 C 197.8350830078125 275.1140441894531 197.9145660400391 276.607666015625 197.0423583984375 277.5779418945312 L 188.2743835449219 287.3312377929688 C 187.8484802246094 287.8048400878906 187.2494354248047 288.0865478515625 186.6128234863281 288.1123046875 C 186.5810241699219 288.1136474609375 186.5492248535156 288.1143188476562 186.5176391601562 288.1143188476562 Z M 186.5176391601562 288.1143188476562"></path></svg>
                   </div>
                   <div class="number-text">We aggregate our 50% and your 50% at the end of your savings plan</div>
                   <div class="spacer" style="clear: both;"></div>
                 </div>
-                <div class="number-item wow fadeInRight" data-wow-delay="2.5s">
+                <div class="number-item" data-wow-delay="2.5s">
                   <div class="number">
                     <svg class="Path_37842" viewBox="177.97 273.636 19.678 14.478"><path id="Path_37842" d="M 186.5176391601562 288.1143188476562 C 185.9148254394531 288.1143188476562 185.3332824707031 287.8836669921875 184.8937072753906 287.4674072265625 L 178.70849609375 281.6122436523438 C 177.7610626220703 280.7153930664062 177.7200927734375 279.22021484375 178.6169281005859 278.2727661132812 C 179.5137634277344 277.3253784179688 181.0087280273438 277.2841796875 181.9563903808594 278.1812133789062 L 186.3814849853516 282.3700561523438 L 193.5289001464844 274.41943359375 C 194.4010925292969 273.4491271972656 195.8946990966797 273.369873046875 196.8650207519531 274.2418518066406 C 197.8350830078125 275.1140441894531 197.9145660400391 276.607666015625 197.0423583984375 277.5779418945312 L 188.2743835449219 287.3312377929688 C 187.8484802246094 287.8048400878906 187.2494354248047 288.0865478515625 186.6128234863281 288.1123046875 C 186.5810241699219 288.1136474609375 186.5492248535156 288.1143188476562 186.5176391601562 288.1143188476562 Z M 186.5176391601562 288.1143188476562"></path></svg>
                   </div>
                   <div class="number-text mt-1">We credit your school directly with the tuition</div>
                   <div class="spacer" style="clear: both;"></div>
                 </div>
-                <div class="number-item wow fadeInLeft" data-wow-delay="3.0s">
+                <div class="number-item" data-wow-delay="3.0s">
                   <div class="number">
                     <svg class="Path_37842" viewBox="177.97 273.636 19.678 14.478"><path id="Path_37842" d="M 186.5176391601562 288.1143188476562 C 185.9148254394531 288.1143188476562 185.3332824707031 287.8836669921875 184.8937072753906 287.4674072265625 L 178.70849609375 281.6122436523438 C 177.7610626220703 280.7153930664062 177.7200927734375 279.22021484375 178.6169281005859 278.2727661132812 C 179.5137634277344 277.3253784179688 181.0087280273438 277.2841796875 181.9563903808594 278.1812133789062 L 186.3814849853516 282.3700561523438 L 193.5289001464844 274.41943359375 C 194.4010925292969 273.4491271972656 195.8946990966797 273.369873046875 196.8650207519531 274.2418518066406 C 197.8350830078125 275.1140441894531 197.9145660400391 276.607666015625 197.0423583984375 277.5779418945312 L 188.2743835449219 287.3312377929688 C 187.8484802246094 287.8048400878906 187.2494354248047 288.0865478515625 186.6128234863281 288.1123046875 C 186.5810241699219 288.1136474609375 186.5492248535156 288.1143188476562 186.5176391601562 288.1143188476562 Z M 186.5176391601562 288.1143188476562"></path></svg>
                   </div>
                   <div class="number-text">You commence a 3-month repayment plan for the 50% student loan (plus interest) from us</div>
                   <div class="spacer" style="clear: both;"></div>
                 </div>
-                <div class="number-item wow fadeInRight" data-wow-delay="4.5s">
+                <div class="number-item" data-wow-delay="4.5s">
                   <div class="number">
                     <svg class="Path_37842" viewBox="177.97 273.636 19.678 14.478"><path id="Path_37842" d="M 186.5176391601562 288.1143188476562 C 185.9148254394531 288.1143188476562 185.3332824707031 287.8836669921875 184.8937072753906 287.4674072265625 L 178.70849609375 281.6122436523438 C 177.7610626220703 280.7153930664062 177.7200927734375 279.22021484375 178.6169281005859 278.2727661132812 C 179.5137634277344 277.3253784179688 181.0087280273438 277.2841796875 181.9563903808594 278.1812133789062 L 186.3814849853516 282.3700561523438 L 193.5289001464844 274.41943359375 C 194.4010925292969 273.4491271972656 195.8946990966797 273.369873046875 196.8650207519531 274.2418518066406 C 197.8350830078125 275.1140441894531 197.9145660400391 276.607666015625 197.0423583984375 277.5779418945312 L 188.2743835449219 287.3312377929688 C 187.8484802246094 287.8048400878906 187.2494354248047 288.0865478515625 186.6128234863281 288.1123046875 C 186.5810241699219 288.1136474609375 186.5492248535156 288.1143188476562 186.5176391601562 288.1143188476562 Z M 186.5176391601562 288.1143188476562"></path></svg>
                   </div>
