@@ -88,7 +88,7 @@
                       <span class="wow slideInUp" data-wow-delay="1.5s">Providing financial aid to Nigerian Students in Tertiary institutions.</span>
                     </span>
                     <p class="font-weight-exlight-p wow-outer" >
-                      <span class="wow slideInUp" data-wow-delay="3.1s">
+                      <span class="wow slideInUp" data-wow-delay="1.1s">
                         We help co-fund your tuition year after year till you graduate giving you a short-term soft loan to facilitate the prompt payment of your tuition fees per academic calendar
                       </span>
                     </p>
@@ -102,7 +102,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-5 col-lg-5 col-xl-5 col-offset-1 banner-img wow fadeInRight" data-wow-delay="3.3s">
+                <div class="col-md-5 col-lg-5 col-xl-5 col-offset-1 banner-img wow fadeInRight" data-wow-delay="1.3s">
                   <div class="banner-img-item"> 
                   </div>
                 </div>
