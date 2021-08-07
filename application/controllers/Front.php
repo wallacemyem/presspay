@@ -13,7 +13,7 @@ class Front extends CI_Controller{
     }
     public function index()
     {
-        $var['meta_title'] = @Utils::siteName.' -'.Utils::tagName;
+        $var['meta_title'] = @Utils::siteName.' - '.Utils::tagName;
         $var['meta_description'] = @Utils::siteDesc;
         $var['keywords'] = @Utils::siteName.", stucco paints in nigeria, alternative stucco paint,  ".Utils::keywords;
         $var['hm'] = "active";

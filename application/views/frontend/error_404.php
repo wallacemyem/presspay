@@ -1,17 +1,44 @@
-<!-- Header Area -->
-<header class="site-header site-header--menu-right menu-block-5 dynamic-sticky-bg mt-3 mt-lg-0 site-header--absolute site-header--sticky">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    404
+  </title>
+  <link rel="shortcut icon" href="./image/png/favicon.png" type="image/x-icon">
+  <?php $this->load->view('frontend/layout/css'); ?>
+</head>
+
+<body data-theme-mode-panel-active data-theme="light">
+  <div class="site-wrapper overflow-hidden ">
+    <div id="loading">
+      <img src="./image/preloader.gif" alt="">
+    </div>
+    <!-- Clean The Code And Hop in -->
+    <!-- Header Area -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader-3.gif" alt="preloader">
+   </div>
+   </div>   -->
+    <!-- Header Area -->
+    <header class="site-header site-header--menu-right mt-2 mb-4 mt-lg-0 mb-lg-0 bg-default">
       <div class="container">
         <nav class="navbar site-navbar">
           <!-- Brand Logo-->
           <div class="brand-logo">
             <a href="/home-marketing.html">
               <!-- light version logo (logo must be black)-->
-              <img src="<?php echo base_url() ?>public/images/logo-dark.png" alt="" class="light-version-logo" height="61" width="160">
+              <img src="image/png/logo-dark.png" alt="" class="light-version-logo">
               <!-- Dark version logo (logo must be White)-->
-              <img src="<?php echo base_url() ?>public/images/logo-white.png" alt="" class="dark-version-logo" height="61" width="160">
+              <img src="image/png/logo-white.png" alt="" class="dark-version-logo">
             </a>
           </div>
-          <div class="menu-block-wrapper  ms-4">
+          <div class="menu-block-wrapper  ms-5 menu-sep-right">
             <div class="menu-overlay"></div>
             <nav class="menu-block" id="append-menu-header">
               <div class="mobile-menu-head">
@@ -157,7 +184,7 @@
                 <li class="nav-item nav-item-has-children has-megamenu">
                   <a href="#" class="nav-link-item drop-trigger">Portfolios <i class="fas fa-angle-down"></i>
                   </a>
-                  <div class="sub-menu megamenu megadropdown-center  d-lg-flex" id="submenu-100">
+                  <div class="sub-menu megamenu  megadropdown-center  d-lg-flex" id="submenu-100">
                     <ul class="col-lg-12 row-lg list-unstyled py-lg-2">
                       <li class="col-lg-3">
                         <div class="single-dropdown-block">
@@ -234,8 +261,9 @@
             </nav>
           </div>
           <div class="header-btn ">
-            <a class="btn btn btn-niagara btn--medium-4 h-45 rounded-50 text-white shadow--niagara-3 ms-auto ms-lg-4 d-none d-sm-flex" href="#">
-              Free SEO Analysis
+            <a class="btn btn btn-electric-violet-2 btn--header-inner rounded-50 text-white shadow--electric-violet-2-4
+ms-2 d-none d-lg-block" href="#">
+              Purchase
             </a>
           </div>
           <!-- mobile menu trigger -->
@@ -248,3 +276,162 @@
     </header>
     <!-- navbar- -->
     <!--/ .Header Area -->
+    <div class="error-page bg-default-3 border-bottom border-default-color-3">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-7 col-md-8 col-xs-10">
+            <div class="error-page__image text-center">
+              <img class="w-100" src="./image/png/404.png" alt="">
+            </div>
+            <div class="error-page__content text-center">
+              <h1 class="error-page__code">404</h1>
+              <h2 class="error-page__heading">Page not found</h2>
+              <p class="error-page__text">The page you are looking for is not available or<br class="d-none d-xs-block"> doesn’t belong to this website!</p>
+            </div>
+            <div class="buttons mx-auto text-center">
+              <a class="btn btn-readical-red shadow--torch-red-2  btn--medium-2 text-white rounded-50 m-2" href="#">Go back</a>
+              <a class="btn btn-outline-readical-red btn--medium-3 rounded-50 m-2" href="#">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area -->
+    <div class="footer-area footer-inner-1 position-relative bg-default-3">
+      <div class="container">
+        <footer class="footer-top">
+          <div class="row">
+            <div class="col-lg-3 col-md-7 col-xs-9">
+              <div class="footer-widgets footer-widgets--l7">
+                <!-- Brand Logo-->
+                <div class="brand-logo mt-1">
+                  <a href="#">
+                    <!-- light version logo (logo must be black)-->
+                    <img src="image/png/logo-dark.png" alt="" class="light-version-logo">
+                    <!-- Dark version logo (logo must be White)-->
+                    <img src="image/png/logo-white.png" alt="" class="dark-version-logo">
+                  </a>
+                </div>
+                <p class="footer-widgets__text mt-5">
+                  We’re the digital agency to create<br class="d-none d-xl-block"> your digital presence for better<br class="d-none d-xl-block"> conversion and sales.</p>
+                <ul class="footer-social-share footer-social-share--rounded mt-4">
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-facebook-square"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div class="row">
+                <div class="col-md-4 col-xs-6">
+                  <div class="footer-widgets footer-widgets--l7">
+                    <h4 class="footer-widgets__title">Contact Details</h4>
+                    <ul class="footer-widgets__list footer-widgets--address">
+                      <li>
+                        <i class="fa fa-map-marker-alt text-electric-violet-2"></i>
+                        <span>Address: <br class="d-block">
+                                            4401 Waldeck Street,<br class="d-block">
+                                            Grapevine Nashville, Tx 76051</span>
+                      </li>
+                      <li>
+                        <i class="fa fa-phone-alt text-electric-violet-2"></i>
+                        <div class="list-content">
+                          <span class="d-block gr-text-hover-decoration-none"> Phone: </span>
+                          <a href="#">+99 (0) 101 0000 888</a>
+                        </div>
+                      </li>
+                      <li>
+                        <i class="fa fa-envelope text-electric-violet-2"></i>
+                        <a class="heading-default-color gr-text-hover-underline text-break" href="mailto:info@medcartel.com">
+                          <span class="d-block gr-text-hover-decoration-none"> Phone:
+                                            </span>info@medcartel.com</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                  <div class="footer-widgets footer-widgets--l7 mb-10 mb-md-0">
+                    <h4 class="footer-widgets__title">Company</h4>
+                    <ul class="footer-widgets__list">
+                      <li>
+                        <a href="#">About
+                          us</a>
+                      </li>
+                      <li>
+                        <a href="#">Privacy
+                          Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">Terms &
+                          Conditions</a>
+                      </li>
+                      <li>
+                        <a href="#">Rider</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-9">
+                  <div class="footer-widgets footer-widgets--l7">
+                    <h4 class="footer-widgets__title">Newsletter</h4>
+                    <p class="footer-widgets__text mb-4 mt-0">Get the latest trends updates right at your inbox.</p>
+                    <!-- Newsletter -->
+                    <div class="newsletter newsletter--l7">
+                      <form action="/.">
+                        <input type="text" placeholder="Enter Your Email">
+                        <button class="btn btn-primary shadow--primary-4" type="submit">Subscribe</button>
+                      </form>
+                    </div>
+                    <!--/ .Newsletter -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center border-top border-default-color-3">
+          <p class="mb-0">© 2021 Fastland By FinestDevs. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+    <!--/ .Footer Area -->
+  </div>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/jquery/jquery.min.js"></script>
+  <script src="./plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="./plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="./plugins/nice-select/jquery.nice-select.min.js"></script>
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/counter-up/jquery.counterup.min.js"></script>
+  <script src="./plugins/counter-up/waypoints.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="./plugins/skill-bar/skill.bars.jquery.js"></script>
+  <script src="./plugins/isotope/isotope.pkgd.min.js"></script>
+  <!--<script src="./plugins/theme-mode-switcher/gr-theme-mode-switcher.js"></script>-->
+  <!-- Activation Script -->
+  <script src="js/menu.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

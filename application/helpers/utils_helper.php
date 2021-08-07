@@ -7,8 +7,8 @@ class Utils{
     //const link = "http://localhost/pyramid/activate?key=";
     const link = "https://presspay.ng/activate?key=";
     const ttl = 5184000;//86400; //1440 minutes
-    const subDir = "front/sub/";
-    const Dir = "front/";
+    const subDir = "frontend/layout/";
+    const Dir = "frontend/";
     const front = "index.html#/";
     const siteName = "PressPayNg";
     const tagName = "Students Loan up to 50%";
