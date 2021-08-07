@@ -54,7 +54,7 @@ class Front extends CI_Controller{
         $this->load->view(@Utils::Dir.'about',$var);
     }
     public function refer()
-    {
+    { 
         $var['meta_title'] = "Refer - ".@Utils::siteName.' -'.Utils::tagName;
         $var['meta_description'] = 'Refer a friend for rewards';
         $var['keywords'] = "refer a friend ".@Utils::siteName.Utils::keywords;
