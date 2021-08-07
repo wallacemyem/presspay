@@ -6,14 +6,17 @@
           <!-- Welcome content Area -->
           <div class="col-xxl-6 col-lg-7 col-md-9 col-xs-11 order-2 order-lg-1">
             <div class="welcome-content welcome-content--l8">
-              <h3 class="welcome-content--l8__sub-title text-bittersweet" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">Get Started</h3>
-              <h1 class="welcome-content--l8__title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Your fitness advisor <br class="d-none d-xs-block d-lg-none d-xl-block">AIl in one place</h1>
-              <p class="welcome-content--l8__descriptions" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true">When, while lovely valley teems with vapour around
-                meand <br class="d-none d-md-block">
-                        meridian sun strikes the upper impenetroble.</p>
+              <h3 class="welcome-content--l8__sub-title text-bittersweet" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">We Are</h3>
+              <h1 class="welcome-content--l8__title" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Providing financial aid <br class="d-none d-xs-block d-lg-none d-xl-block">to Nigerian Students
+                
+              </h1>
+              <p class="welcome-content--l8__descriptions" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true">We help co-fund your tuition year after year till you graduate giving you
+              <br class="d-none d-md-block"> a short-term soft loan to facilitate the prompt payment of your tuition
+              <br class="d-none d-md-block"> fees per academic calendar 
+                        </p>
               <div class="welcome-btn-group--l8">
                 <a class="btn btn--lg-2 btn-bittersweet me-3 text-white rounded-50 me-3 popup-btn" href="https://www.youtube.com/watch?v=LWZ7iytIA6k" data-aos="fade-up" data-aos-duration="500" data-aos-delay="700" data-aos-once="true">Watch
-                  Video</a>
+                  Learn More</a>
                 <a class="btn btn--lg-2 btn-niagara rounded-50 me-3 text-white" href="#" data-aos="fade-up" data-aos-duration="500" data-aos-delay="900" data-aos-once="true">Get
                   Started</a>
               </div>
@@ -38,172 +41,9 @@
       </div>
     </div>
     <!--/ .Hero Area -->
-    <!-- Services Area -->
-    <div class="service-area service-area--l8 bg-default">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8">
-            <!-- Section Title -->
-            <div class="section-title section-title--l8 text-center">
-              <h6 class="section-title__sub-heading text-bittersweet" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">Our Services</h6>
-              <h2 class="section-title__heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Provided Featrues</h2>
-            </div>
-            <!--/ .Section Title -->
-          </div>
-        </div>
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true">
-          <!-- Single Services -->
-          <div class="col-xl-3 col-lg-4 col-md-6 col-xs-8">
-            <div class="card card--services-l6 text-center card-hover__bittersweet">
-              <div class="card--services-l6__icon bg-op1__bittersweet mx-auto">
-                <i class="text-bittersweet fas fa-bell"></i>
-              </div>
-              <h3 class="card--services-l6__heading">Team Accounts</h3>
-              <p class="card--services-l6__content">There are many variations and<br class="d-none d-xs-block"> passages of Lorem
-        lpsum<br class="d-none d-xs-block"> available for use</p>
-            </div>
-          </div>
-          <!--/ .Single Services -->
-          <!-- Single Services -->
-          <div class="col-xl-3 col-lg-4 col-md-6 col-xs-8">
-            <div class="card card--services-l6 text-center card-hover__niagara">
-              <div class="card--services-l6__icon bg-op1__niagara mx-auto">
-                <i class="text-niagara fas fa-layer-group"></i>
-              </div>
-              <h3 class="card--services-l6__heading">Digital Agency</h3>
-              <p class="card--services-l6__content">There are many variations and<br class="d-none d-xs-block"> passages of Lorem
-        lpsum<br class="d-none d-xs-block"> available for use</p>
-            </div>
-          </div>
-          <!--/ .Single Services -->
-          <!-- Single Services -->
-          <div class="col-xl-3 col-lg-4 col-md-6 col-xs-8">
-            <div class="card card--services-l6 text-center card-hover__coral">
-              <div class="card--services-l6__icon bg-op1__coral mx-auto">
-                <i class="text-coral fas fa-envelope"></i>
-              </div>
-              <h3 class="card--services-l6__heading">Email Marketing</h3>
-              <p class="card--services-l6__content">There are many variations and<br class="d-none d-xs-block"> passages of Lorem
-        lpsum<br class="d-none d-xs-block"> available for use</p>
-            </div>
-          </div>
-          <!--/ .Single Services -->
-          <!-- Single Services -->
-          <div class="col-xl-3 col-lg-4 col-md-6 col-xs-8">
-            <div class="card card--services-l6 text-center card-hover__lavender">
-              <div class="card--services-l6__icon bg-op1__lavender mx-auto">
-                <i class="text-lavender fas fa-chart-pie"></i>
-              </div>
-              <h3 class="card--services-l6__heading">API Reference</h3>
-              <p class="card--services-l6__content">There are many variations and<br class="d-none d-xs-block"> passages of Lorem
-        lpsum<br class="d-none d-xs-block"> available for use</p>
-            </div>
-          </div>
-          <!--/ .Single Services -->
-        </div>
-      </div>
-    </div>
-    <!--/ .Services Area -->
-    <!-- About Us Area -->
-    <div class="content-section content-section--8 bg-default-5 border-bottom border-default-color-3">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-6 col-lg-8 col-md-9 col-xs-10">
-            <!-- Section Title -->
-            <div class="section-title section-title--l8 mt-4 mt-md-0 text-center">
-              <h6 class="section-title__sub-heading text-bittersweet" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">About Lupinus Group</h6>
-              <h2 class="section-title__heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Innovative Building With New Materials</h2>
-            </div>
-            <!--/ .Section Title -->
-          </div>
-        </div>
-        <div class="row align-items-center justify-content-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
-          <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-8 col-xs-9 order-2 order-lg-1">
-            <div class="widget widget--about widgets-align-right">
-              <!-- Single Services -->
-              <div class="widgets widgets--about-l6 d-flex">
-                <div class="widgets__icon">
-                  <i class="fa fa-layer-group"></i>
-                </div>
-                <div class="widgets__content">
-                  <h5 class="widgets__title">Optimal Choice</h5>
-                  <p class="widgets__text">The White iphone smartphone mockup counterclockwise </p>
-                </div>
-              </div>
-              <!--/ .Single Services -->
-              <!-- Single Services -->
-              <div class="widgets widgets--about-l6 d-flex">
-                <div class="widgets__icon">
-                  <i class="fa fa-chart-pie"></i>
-                </div>
-                <div class="widgets__content">
-                  <h5 class="widgets__title">Financial advice</h5>
-                  <p class="widgets__text">The White iphone smartphone mockup counterclockwise </p>
-                </div>
-              </div>
-              <!--/ .Single Services -->
-              <!-- Single Services -->
-              <div class="widgets widgets--about-l6 d-flex">
-                <div class="widgets__icon">
-                  <i class="fa fa-cog"></i>
-                </div>
-                <div class="widgets__content">
-                  <h5 class="widgets__title">Innovative solutions</h5>
-                  <p class="widgets__text">The White iphone smartphone mockup counterclockwise </p>
-                </div>
-              </div>
-              <!--/ .Single Services -->
-            </div>
-          </div>
-          <div class="col-xxl-6 col-lg-4 col-md-8 col-xs-9 order-1 order-lg-2" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
-            <div class="content-img content-img--l7-group-img text-center">
-              <img class="w-100" src="https://finestdevs.com/demos/fastland-html/image/home-7/about-mobile-img.png" alt="">
-              <div class="shape">
-                <img src="<?= base_url() ?>public/image/home-7/green-shape.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-8 col-xs-9 order-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
-            <div class="widget widget--about">
-              <!-- Single Services -->
-              <div class="widgets widgets--about-l6 d-flex">
-                <div class="widgets__icon">
-                  <i class="fa fa-bookmark"></i>
-                </div>
-                <div class="widgets__content">
-                  <h5 class="widgets__title">Optimal Choice</h5>
-                  <p class="widgets__text">The White iphone smartphone mockup counterclockwise </p>
-                </div>
-              </div>
-              <!--/ .Single Services -->
-              <!-- Single Services -->
-              <div class="widgets widgets--about-l6 d-flex">
-                <div class="widgets__icon">
-                  <i class="fa fa-headphones"></i>
-                </div>
-                <div class="widgets__content">
-                  <h5 class="widgets__title">Business strategy</h5>
-                  <p class="widgets__text">The White iphone smartphone mockup counterclockwise </p>
-                </div>
-              </div>
-              <!--/ .Single Services -->
-              <!-- Single Services -->
-              <div class="widgets widgets--about-l6 d-flex">
-                <div class="widgets__icon">
-                  <i class="fa fa-bell"></i>
-                </div>
-                <div class="widgets__content">
-                  <h5 class="widgets__title">Marketing outline</h5>
-                  <p class="widgets__text">The White iphone smartphone mockup counterclockwise </p>
-                </div>
-              </div>
-              <!--/ .Single Services -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--/ .About Us Area -->
+        <?php $this->load->view('frontend/layout/services'); ?>
+        <?php $this->load->view('frontend/layout/savings'); ?>
+        <?php $this->load->view('frontend/layout/get_started'); ?>
     <!-- Content One Area -->
     <div class="content-section content-section--l8-2 bg-default-5 border-bottom boder-default-color">
       <div class="container">
@@ -284,6 +124,17 @@
         </div>
       </div>
     </div>
+    <script>
+      var typed = new Typed('.highlight-text', {
+        strings: ["Tertiary.", "Institutions."],
+        typeSpeed: 80,
+        backSpeed: 80,
+        cursorChar: '',
+        shuffle: true,
+        smartBackspace: false,
+        loop: true
+      });
+    </script>
     <!--/ .promo Area -->
     <?php $this->load->view('frontend/layout/cta'); ?>
     
