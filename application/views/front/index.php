@@ -194,7 +194,7 @@
       <section class="section section-lg text-center bg-default">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-lg-4 col-xl-8 text-right pr-5 pb-5">
+            <div class="col-md-6 col-lg-4 col-xl-8 text-right pr-0 pb-0">
               <h3 class="section-title smaller-title wow-outer text-left"><span class="wow slideInUp">How to get started</span></h3>
               <br>
               <div class="number-wrap">
@@ -232,7 +232,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-xl-3 text-left mobile-phone mb-3"></div>
+            <div class="col-lg-6 col-xl-4 text-left mobile-phone mb-4"></div>
             <!-- <div class="col-md-12 col-lg-8 col-xl-5 text-right">
             <h3 class="section-title smaller-title wow-outer text-left"><span class="wow slideInUp">What's Next?</span></h3>
               <div class="number-wrap number-wrap-2 mt-4 text-right">
