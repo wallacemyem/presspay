@@ -9,6 +9,6 @@
   <link rel="stylesheet" href="<?= base_url() ?>public/plugins/nice-select/nice-select.min.css">
   <link rel="stylesheet" href="<?= base_url() ?>public/plugins/slick/slick.min.css">
   <!-- Vendor stylesheets  -->
-  <link rel="stylesheet" href="<?= base_url() ?>public/plugins/theme-mode-switcher/switcher-panel.css">
+  <!-- <link rel="stylesheet" href="<?= base_url() ?>public/plugins/theme-mode-switcher/switcher-panel.css"> -->
   <link rel="stylesheet" href="<?= base_url() ?>public/css/main.css">
   <!-- Custom stylesheet -->

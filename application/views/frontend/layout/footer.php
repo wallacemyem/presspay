@@ -1,66 +1,101 @@
-<!-- Footer Area -->
-<footer class="footer-section footer-inner-2 position-relative bg-default pt-6">
+    <!-- Footer Area -->
+    <div class="footer-area footer-section--2 position-relative bg-default">
       <div class="container">
-        <div class="footer-top border-bottom border-default-color-3 pb-5">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-6 col-xxs-4 col-lg-4 col-md-5 col-xs-4">
-              <div class="footer-brand-block footer-brand-block--l4 mb-md-0">
+        <footer class="footer-top">
+          <div class="row">
+            <div class="col-lg-4 col-md-8 col-xs-10">
+              <div class="footer-widgets footer-widgets--l2">
                 <!-- Brand Logo-->
-                <div class="brand-logo mb-0 text-center text-md-start mx-auto mx-md-0">
+                <div class="brand-logo mt-1">
                   <a href="#">
                     <!-- light version logo (logo must be black)-->
-                    <img src="image/png/logo-dark.png" alt="" class="light-version-logo">
+                    <img src="<?php base_url(); ?>public/img/favicon.png" alt="" class="light-version-logo" height="60" width="60">
                     <!-- Dark version logo (logo must be White)-->
-                    <img src="image/png/logo-white.png" alt="" class="dark-version-logo">
+                    <img src="<?php base_url(); ?>public/img/favicon.png" alt="" class="dark-version-logo" height="60" width="60">
                   </a>
+                </div>
+                <p class="footer-widgets__text">The best
+                  medicines & biggest<br class="d-none d-lg-block"> brands within 30 minutes at your<br class="d-none d-lg-block"> home. Experience the power of<br class="d-none d-lg-block"> MedCartel today.</p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-md-4 col-xs-6">
+                  <div class="footer-widgets footer-widgets--l2 mb-10 mb-md-0">
+                    <h4 class="footer-widgets__title">Company</h4>
+                    <ul class="footer-widgets__list">
+                      <li>
+                        <a href="#">About
+                          us</a>
+                      </li>
+                      <li>
+                        <a href="#">Privacy
+                          Policy</a>
+                      </li>
+                      <li>
+                        <a href="#">Terms &
+                          Conditions</a>
+                      </li>
+                      <li>
+                        <a href="#">Rider</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-6">
+                  <div class="footer-widgets footer-widgets--l2">
+                    <h4 class="footer-widgets__title">Contact Details</h4>
+                    <ul class="footer-widgets__list footer-widgets--address">
+                      <li> <i
+                                            class="fa fa-map-marker-alt text-radical-red"></i>
+                        <span>Amsterdam <br class="d-block">
+                                            Netherlands</span>
+                      </li>
+                      <li> <i class="fa fa-phone-alt text-radical-red"></i>
+                        <div class="list-content">
+                          <a href="#">+31 62 19
+                            22 705</a>
+                          <span class="d-block gr-text-hover-decoration-none"> 7 Days - 8am
+                                                - 10pm </span>
+                        </div>
+                      </li>
+                      <li> <i class="fa fa-envelope text-radical-red"></i>
+                        <a class="heading-default-color gr-text-hover-underline text-break" href="mailto:info@medcartel.com">info@medcartel.com</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xs-7">
+                  <div class="footer-widgets footer-widgets--l2">
+                    <h4 class="footer-widgets__title">Follow us on social
+                      media</h4>
+                    <div class="footer-social-share dot-right footer-social-share--2">
+                      <ul class="list-unstyled d-flex align-items-center">
+                        <li>
+                          <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                          <a href="#">Twitter</a>
+                        </li>
+                        <li>
+                          <a href="#">Instagram</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="payment-gatway border-top border-default-color">
+                      <img class="w-100" src="<?php base_url(); ?>public/image/home-2/payment-gatway.png" alt="">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-8 col-md-7">
-              <div class="footer-menu text-center text-md-end">
-                <ul class="list-unstyled">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </div>
-            </div>
           </div>
-        </div>
-        <div class="copyright-block copyright-block--l3">
-          <div class="row  text-center align-items-center">
-            <div class="col-xs-6 text-sm-start">
-              <p class="copyright-text--l3 ">© 2021 Fastland Web Ui Template</p>
-            </div>
-            <div class="col-xs-6 text-sm-end">
-              <ul class="footer-social-share footer-social-share--rounded">
-                <li>
-                  <a href="#">
-                    <i class="fab fa-facebook-square"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        </footer>
       </div>
-    </footer>
+    </div>
     <!--/ .Footer Area -->
   </div>
   <?php $this->load->view('frontend/layout/js'); ?>
