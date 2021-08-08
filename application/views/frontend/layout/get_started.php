@@ -26,7 +26,7 @@
                   <i class="fa fa-layer-group"></i>
                 </div>
                 <div class="widgets__content">
-                  <h5 class="widgets__title">Download the Application</h5>
+                  <h5 class="widgets__title">Download Application</h5>
                   
                 </div>
               </div>
