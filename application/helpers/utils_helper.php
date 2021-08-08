@@ -24,6 +24,7 @@ class Utils{
     const tblProfile = 'tbl_profile';
     const tblCMS = 'tbl_cms';
     const appUrl = '//app.presspay.ng/';
+    const tblActivate = true;
     
 
     //mock
@@ -379,4 +380,6 @@ class Utils{
     public function encrypt($string, $key=NULL) {
         return base64_encode($string);
     }
+
+    
 }

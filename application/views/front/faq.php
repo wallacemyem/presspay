@@ -109,7 +109,7 @@
                         <div id="collapse<?= $count; ?>" class="panel-collapse <?= ($count==1?'':'collapse in1')?>" role="tabpanel" aria-labelledby="heading<?= $count; ?>">
                             <div class="panel-body"><?= $fq->descr ?></div>
                         </div>
-                    </div>
+                    </div> 
                     <?php endforeach; ?>
                 </div>
                 </div>

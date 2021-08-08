@@ -140,6 +140,18 @@ class GenModel extends CI_Model
                         ->get($table)->row_array();
         }
     }
+
+    public function get_faqs($type, $select = NULL){
+        
+            if($select){
+                $this->db->select($select);
+            }
+            return $this->db
+                        ->where('type', $type)
+                        ->get('faqs')->result();
+        
+    }
+    
     public function fetch_single_arr($table,array $where)
     {
         if(is_array($where)){
