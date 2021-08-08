@@ -46,14 +46,6 @@ class Front extends CI_Controller{
         }
     }
     
-    public function refer()
-    { 
-        $var['meta_title'] = "Refer - ".@Utils::siteName.' -'.Utils::tagName;
-        $var['meta_description'] = 'Refer a friend for rewards';
-        $var['keywords'] = "refer a friend ".@Utils::siteName.Utils::keywords;
-        $var['loan'] = "active";
-        $this->load->view(@Utils::Dir.'refer',$var);
-    }
     public function offers()
     {
         $var['meta_title'] = "Our Offers - ".@Utils::siteName.' -'.Utils::tagName;
@@ -79,22 +71,7 @@ class Front extends CI_Controller{
         $var['support'] = "active";
         $this->load->view(@Utils::Dir.'terms',$var);
     }
-    public function contact()
-    {
-        $var['meta_title'] = "Contact - ".@Utils::siteName;
-        $var['meta_description'] = @Utils::siteDesc;
-        $var['keywords'] = "contact ".@Utils::siteName.", address and location of ".@Utils::siteName.Utils::keywords;
-        $var['ct'] = "active";
-        /*$hm = $var['home'] = $this->GenModel->fetch_multi(Utils::tblCMS,array('name'=>'home'));
-        $data2 = [];
-        foreach($hm as $d){
-            $data2[$d->name] = $d->value;
-            $data2[$d->sub_name] = $d->value;
-        }
-        //echo json_encode($data2['lead']);exit;
-        $var['home'] = $data2;*/
-        $this->load->view(@Utils::Dir.'ct',$var);
-    }
+   
     public function gallery()
     {
         $var['meta_title'] = "Gallery - ".@Utils::siteName;

@@ -7,10 +7,10 @@ $route['404_override'] = 'front/_404';
 //front end routes
 $route['about'] = "about";
 $route['faqs'] = "faqs";
-$route['refer-a-friend'] = "front/refer";
-$route['our-offers'] = "front/offers";
+$route['refer-a-friend'] = "refer";
+$route['our-offers'] = "offers";
 $route['how-it-works'] = "front/how_it_work1s";
-$route['contact'] = "front/contact";
+$route['contact'] = "contact";
 $route['services'] = "front/service";
 $route['gallery'] = "front/gallery";
 $route['privacy'] = "front/privacy";
