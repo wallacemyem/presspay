@@ -14,8 +14,8 @@
                     <img src="<?php base_url(); ?>public/img/favicon.png" alt="" class="dark-version-logo" height="60" width="60">
                   </a>
                 </div>
-                <p class="footer-widgets__text">The best
-                  medicines & biggest<br class="d-none d-lg-block"> brands within 30 minutes at your<br class="d-none d-lg-block"> home. Experience the power of<br class="d-none d-lg-block"> MedCartel today.</p>
+                <p class="footer-widgets__text">Access up to 50% of your tuition as student loan from us and contribute the other 50%<br class="d-none d-lg-block"> with our flexible savings plans. <br class="d-none d-lg-block">Together, we take responsibility for your<br class="d-none d-lg-block"> future.
+                 </p>
               </div>
             </div>
             <div class="col-lg-8">
@@ -49,21 +49,20 @@
                   <div class="footer-widgets footer-widgets--l2">
                     <h4 class="footer-widgets__title">Contact Details</h4>
                     <ul class="footer-widgets__list footer-widgets--address">
-                      <li> <i
-                                            class="fa fa-map-marker-alt text-radical-red"></i>
-                        <span>Amsterdam <br class="d-block">
-                                            Netherlands</span>
+                      <li> <i class="fa fa-map-marker-alt text-radical-red"></i>
+                      55 Allen Avenue Ikeja, Lagos <br class="d-block">
+  </li>
+                        <li><i class="fa fa-map-marker-alt text-radical-red"></i>
+                        Suite 25/27, Eagleville Estate, Mabushi, Abuja
                       </li>
                       <li> <i class="fa fa-phone-alt text-radical-red"></i>
                         <div class="list-content">
-                          <a href="#">+31 62 19
-                            22 705</a>
-                          <span class="d-block gr-text-hover-decoration-none"> 7 Days - 8am
-                                                - 10pm </span>
+                          <a href="#">+234 (0)909 000 1113</a>
+                          
                         </div>
                       </li>
                       <li> <i class="fa fa-envelope text-radical-red"></i>
-                        <a class="heading-default-color gr-text-hover-underline text-break" href="mailto:info@medcartel.com">info@medcartel.com</a>
+                        <a class="heading-default-color gr-text-hover-underline text-break" href="support@presspay.ng">support@presspay.ng</a>
                       </li>
                     </ul>
                   </div>
@@ -75,13 +74,13 @@
                     <div class="footer-social-share dot-right footer-social-share--2">
                       <ul class="list-unstyled d-flex align-items-center">
                         <li>
-                          <a href="#">Facebook</a>
+                          <a href="https://facebook.com/presspayng">Facebook</a>
                         </li>
                         <li>
-                          <a href="#">Twitter</a>
+                          <a href="https://twitter.com/presspayng">Twitter</a>
                         </li>
                         <li>
-                          <a href="#">Instagram</a>
+                          <a href="https://instagram.com/presspayng">Instagram</a>
                         </li>
                       </ul>
                     </div>

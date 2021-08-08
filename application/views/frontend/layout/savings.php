@@ -6,7 +6,7 @@
             <!-- Content Image Wrap -->
             <div class="content-image-group content-image-group--l1_1">
               <!-- Content Image -->
-              <img class="w-100" src="<?php base_url() ?>public/images/student_phone.png" alt="" data-aos="fade-right" data-aos-duration="500" data-aos-once="true" height="440" >
+              <img class="w-100" src="<?php base_url() ?>public/images/student_phone.png" alt="" data-aos="fade-right" data-aos-duration="500" data-aos-once="true" height="500" width="590" >
               <!-- Content Image -->
               <div class="content-image-group__image content-image-group__image-1" data-aos="fade-bottom" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
                 <img class="w-100" src="<?php base_url() ?>public/image/home-1/purple-dots.png" alt="">

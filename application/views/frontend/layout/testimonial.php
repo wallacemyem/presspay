@@ -19,7 +19,7 @@
                 <div class="card-body__top d-flex align-items-center justify-content-between">
                   <div class="d-flex flex-wrap align-items-center">
                     <div class="card-image">
-                      <img src="./image/home-4/user-img-1.png" alt="">
+                      <img src="<?php base_url() ?>public/images/f2.png" alt="">
                     </div>
                     <div class="card-body__user mr-3">
                       <h3 class="card-title">Charles Patterson</h3>
@@ -40,10 +40,10 @@
                 <div class="card-body__top d-flex align-items-center justify-content-between">
                   <div class="d-flex flex-wrap align-items-center">
                     <div class="card-image">
-                      <img src="./image/home-3/user-circle-1.png" alt="">
+                      <img src="<?php base_url() ?>public/images/f1.png" alt="">
                     </div>
                     <div class="card-body__user mr-3">
-                      <h3 class="card-title">John Doe</h3>
+                      <h3 class="card-title">Jane Doe</h3>
                       <p class="card-text--ext">One year with us</p>
                     </div>
                   </div>
@@ -61,28 +61,7 @@
                 <div class="card-body__top d-flex align-items-center justify-content-between">
                   <div class="d-flex flex-wrap align-items-center">
                     <div class="card-image">
-                      <img src="./image/home-3/user-circle-2.png" alt="">
-                    </div>
-                    <div class="card-body__user mr-3">
-                      <h3 class="card-title">Tiana Dokidis</h3>
-                      <p class="card-text--ext">One year with us</p>
-                    </div>
-                  </div>
-                  <div class="card-icon">
-                    <i class="fa fa-quote-left"></i>
-                  </div>
-                </div>
-                <p class="card-description">consetetur sadipscing elltr, sed dlam nonumy elrmod tempor invidunt ut labore et dolore magna allquyam erat, sed dlam voluptua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-12">
-            <div class="card card-testimonial--l4">
-              <div class="card-body ">
-                <div class="card-body__top d-flex align-items-center justify-content-between">
-                  <div class="d-flex flex-wrap align-items-center">
-                    <div class="card-image">
-                      <img src="./image/home-3/user-circle-3.png" alt="">
+                      <img src="<?php base_url() ?>public/images/f1.png" alt="">
                     </div>
                     <div class="card-body__user mr-3">
                       <h3 class="card-title">Tiana Dokidis</h3>
@@ -103,7 +82,28 @@
                 <div class="card-body__top d-flex align-items-center justify-content-between">
                   <div class="d-flex flex-wrap align-items-center">
                     <div class="card-image">
-                      <img src="./image/home-3/user-circle-1.png" alt="">
+                      <img src="<?php base_url() ?>public/images/f3.png" alt="">
+                    </div>
+                    <div class="card-body__user mr-3">
+                      <h3 class="card-title">Tiana Dokidis</h3>
+                      <p class="card-text--ext">One year with us</p>
+                    </div>
+                  </div>
+                  <div class="card-icon">
+                    <i class="fa fa-quote-left"></i>
+                  </div>
+                </div>
+                <p class="card-description">consetetur sadipscing elltr, sed dlam nonumy elrmod tempor invidunt ut labore et dolore magna allquyam erat, sed dlam voluptua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="card card-testimonial--l4">
+              <div class="card-body ">
+                <div class="card-body__top d-flex align-items-center justify-content-between">
+                  <div class="d-flex flex-wrap align-items-center">
+                    <div class="card-image">
+                      <img src="<?php base_url() ?>public/images/f2.png" alt="">
                     </div>
                     <div class="card-body__user mr-3">
                       <h3 class="card-title">Talan Bergson</h3>
