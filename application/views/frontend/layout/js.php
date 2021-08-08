@@ -1,5 +1,6 @@
-<!-- Plugin's Scripts -->
-<script src="<?= base_url() ?>public/plugins/jquery/jquery.min.js"></script>
+
+  <!-- Plugin's Scripts -->
+  <script src="<?= base_url() ?>public/plugins/jquery/jquery.min.js"></script>
   <script src="<?= base_url() ?>public/plugins/jquery/jquery-migrate.min.js"></script>
   <script src="<?= base_url() ?>public/js/bootstrap.bundle.js"></script>
   <script src="<?= base_url() ?>public/plugins/fancybox/jquery.fancybox.min.js"></script>

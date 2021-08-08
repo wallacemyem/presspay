@@ -15,7 +15,7 @@
 <body data-theme-mode-panel-active data-theme="light">
   <div class="site-wrapper overflow-hidden ">
     <div id="loading">
-      <img src="<?= base_url() ?>public/image/preloader.gif" alt="">
+    <img src="<?php echo base_url() ?>public/images/logo-dark.png" alt="" srcset="<?php echo base_url() ?>public/images/logo-dark.png 800w"/>
     </div>
     <!-- Clean The Code And Hop in -->
     <!-- Header Area -->
