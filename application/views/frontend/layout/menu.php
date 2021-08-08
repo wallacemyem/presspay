@@ -24,13 +24,9 @@
               <ul class="site-menu-main">
                 
                 <li class="nav-item nav-item-has-children">
-                  <a href="#" class="nav-link-item drop-trigger">ABOUT US <i class="fas fa-angle-down"></i>
+                  <a href="<?= base_url() ?>about" class="nav-link-item drop-trigger">ABOUT US
                   </a>
-                  <ul class="sub-menu" id="submenu-2">
-                    <li class="sub-menu--item">
-                      <a href="<?= base_url() ?>about">The Company</a>
-                    </li>
-                  </ul>
+                  
                 </li>
                 <li class="nav-item nav-item-has-children ">
                   <a href="#" class="nav-link-item drop-trigger">GET A LOAN <i class="fas fa-angle-down"></i>

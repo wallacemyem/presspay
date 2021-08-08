@@ -5,8 +5,8 @@ $route['default_controller'] = 'front';
 $route['404_override'] = 'front/_404';
 
 //front end routes
-$route['about'] = "front/about";
-$route['faqs'] = "front/faqs";
+$route['about'] = "about";
+$route['faqs'] = "faqs";
 $route['refer-a-friend'] = "front/refer";
 $route['our-offers'] = "front/offers";
 $route['how-it-works'] = "front/how_it_work1s";
@@ -22,11 +22,11 @@ $route['payment_completed'] = "front/payment_completed";
 $route['payment_completed/(:num)'] = "front/payment_completed/$1";
 $route['donations/(:num)'] = "front/donations/$1";
 
-$route['(:num)/(:any)'] = "frontend/product";
+$route['(:num)/(:any)'] = "front/product";
 
 //modal
 $route['templates/([a-zA-z]+)'] = "front/modal/$1";
-$route['views/([a-zA-z]+)'] = "frontend/views/$1";
+$route['views/([a-zA-z]+)'] = "front/views/$1";
 
 //users API
 $route['api/checkEmailExist'] = "api/users/check_exist";

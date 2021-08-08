@@ -45,14 +45,7 @@ class Front extends CI_Controller{
             header('Location: '.$url.'/sponsorships/'.$txRef);
         }
     }
-    public function about()
-    {
-        $var['meta_title'] = "About - ".@Utils::siteName.' -'.Utils::tagName;
-        $var['meta_description'] = Utils::siteDesc;
-        $var['keywords'] = "about ".@Utils::siteName.Utils::keywords;
-        $var['ab'] = "active";
-        $this->load->view(@Utils::Dir.'about',$var);
-    }
+    
     public function refer()
     { 
         $var['meta_title'] = "Refer - ".@Utils::siteName.' -'.Utils::tagName;
@@ -69,18 +62,7 @@ class Front extends CI_Controller{
         $var['offer'] = "active";
         $this->load->view(@Utils::Dir.'offers',$var);
     }
-    public function faqs()
-    {
-        $var['meta_title'] = "FAQs - ".@Utils::siteName.' -'.Utils::tagName;
-        $var['meta_description'] = 'Frequently asked questions';
-        $var['keywords'] = "faq ".@Utils::siteName.Utils::keywords;
-        $var['support'] = "active";
-        $var['faqArr'] = $this->GenModel->fetch_multi('faqs',array('type'=>'student'));
-        $var['faqUni'] = $this->GenModel->fetch_multi('faqs',array('type'=>'uni'));
-        $var['faqRole'] = $this->GenModel->fetch_multi('faqs',array('type'=>'model'));
-        $var['faqPhil'] = $this->GenModel->fetch_multi('faqs',array('type'=>'phil'));
-        $this->load->view(@Utils::Dir.'faq',$var);
-    }
+   
     public function privacy()
     {
         $var['meta_title'] = "Privacy - ".@Utils::siteName.' -'.Utils::tagName;
