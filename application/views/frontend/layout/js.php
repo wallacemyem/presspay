@@ -11,7 +11,7 @@
   <script src="<?= base_url() ?>public/plugins/slick/slick.min.js"></script>
   <script src="<?= base_url() ?>public/plugins/skill-bar/skill.bars.jquery.js"></script>
   <script src="<?= base_url() ?>public/plugins/isotope/isotope.pkgd.min.js"></script>
-  <!--<script src="./plugins/theme-mode-switcher/gr-theme-mode-switcher.js"></script>-->
-  <!-- Activation Script -->
+  <script src="<?= base_url() ?>public/plugins/theme-mode-switcher/gr-theme-mode-switcher.js"></script>
+  // <!-- Activation Script -->
   <script src="<?= base_url() ?>public/js/menu.js"></script>
   <script src="<?= base_url() ?>public/js/custom.js"></script>

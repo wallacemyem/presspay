@@ -95,7 +95,6 @@
     <!--/ .Footer Area -->
   </div>
   <?php $this->load->view('frontend/layout/js'); ?>
-  </div>
 </body>
 
 </html>
