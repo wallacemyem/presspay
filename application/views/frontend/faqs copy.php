@@ -52,56 +52,16 @@
                 </div>
                 
                 <div class="col-xl-9 col-lg-8 col-md-11">
-                <?php 
-                    $active = 0;
-                    foreach($faqArr as $fq): $active++; ?>
+                
                   <div class="tab-content" id="v-pills-tabContent">
                 
                     <div class="tab-pane fade show <?= ($active==1?'active':'')?>" id="student" role="tabpanel" aria-labelledby="student">
                       <!-- single Accordion -->
                       
                       <div class="accordion accordion--inner" id="accordionExample">
-                          
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="heading<?= $active ?>">
-
-                            <button class="accordion-button <?= ($active==1?'':'collapsed')?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?= $active ?>" aria-expanded="true" aria-controls="collapse<?= $active ?>">
-                            <?= $fq->title ?>
-                            </button>
-                          </h2>
-                          <div id="collapse<?= $active ?>" class="accordion-collapse collapse <?= ($active==1?'show':'')?>" aria-labelledby="heading<?= $active ?>" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                            <?= $fq->descr ?>
-                            </div>
-                          </div>
-                        </div>
-                    
-                      </div>
-                    
-                    </div>
-                </div>
-                    <!-- Button  -->
-                    <!-- <div class="buttons mt-7">
-                      <p class="">Haven’t got your answer?<a class="btn-link text-readical-red ms-2" href="#">Contact our support
-                          now</a>
-                      </p>
-                    </div> -->
-                    <!-- Button End -->
-                  
-                <?php endforeach; ?>
-
-                
-                <div class="col-xl-9 col-lg-8 col-md-11">
-                <?php 
+                      <?php 
                     $active = 0;
-                    foreach($faqUni as $fq): $active++; ?>
-                  <div class="tab-content" id="v-pills-tabContent">
-                
-                    <div class="tab-pane fade show <?= ($active==1?'active':'')?>" id="uni" role="tabpanel" aria-labelledby="uni">
-                      <!-- single Accordion -->
-                      
-                      <div class="accordion accordion--inner" id="accordionExample">
-                          
+                    foreach($faqArr as $fq): $active++; ?>
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="heading<?= $active ?>">
 
@@ -115,25 +75,18 @@
                             </div>
                           </div>
                         </div>
-                    
+                        <?php endforeach; ?>
                       </div>
                     
                     </div>
                 </div>
-                    <!-- Button  -->
-                    <!-- <div class="buttons mt-7">
-                      <p class="">Haven’t got your answer?<a class="btn-link text-readical-red ms-2" href="#">Contact our support
-                          now</a>
-                      </p>
-                    </div> -->
-                    <!-- Button End -->
-                <?php endforeach; ?>
-                </div>
+      
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
     <!--/ .Testimonial Area -->
     <?php $this->load->view('frontend/layout/cta') ?>
