@@ -33,7 +33,7 @@
                   </a>
                   <ul class="sub-menu" id="submenu-2">
                     <li class="sub-menu--item">
-                      <a href="<?= base_url() ?>sign-up">Apply Now</a>
+                      <a href="https://app.presspay.ng/sign-up">Apply Now</a>
                     </li>
                     <li class="sub-menu--item">
                       <a href="<?= base_url() ?>about">Learn More</a>
@@ -65,7 +65,7 @@
             </nav>
           </div>
           <div class="header-btn ">
-            <a class="btn btn btn-niagara btn--medium-4 h-45 rounded-50 text-white shadow--niagara-3 ms-auto ms-lg-4 d-none d-sm-flex" href="<?= base_url() ?>sign-in">
+            <a class="btn btn btn-niagara btn--medium-4 h-45 rounded-50 text-white shadow--niagara-3 ms-auto ms-lg-4 d-none d-sm-flex" href="https://app.presspay.ng/sign-in">
               Login
             </a>
           </div>
