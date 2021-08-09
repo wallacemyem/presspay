@@ -16,7 +16,7 @@
           <!--/ .about-us Content -->
           <div class="col-xxl-6 col-lg-5 col-md-8 col-xs-10 order-1 order-lg-2">
             <div class="content-img mb-4 mb-lg-0" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
-              <img class="w-100" src="https://finestdevs.com/demos/fastland-html/image/home-7/content-mobile-img.png" alt="" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+              <img class="w-100" src="public/image/home-7/content-mobile-img.png" alt="" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
               <div class="shape">
                 <img src="<?= base_url() ?>public/image/home-7/red-shape.png" alt="" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
               </div>
