@@ -76,17 +76,7 @@
         </div>
       </div>
     </div>
-    <script>
-      var typed = new Typed('.highlight-text', {
-        strings: ["Tertiary.", "Institutions."],
-        typeSpeed: 80,
-        backSpeed: 80,
-        cursorChar: '',
-        shuffle: true,
-        smartBackspace: false,
-        loop: true
-      });
-    </script>
+    
     <!--/ .promo Area -->
     <?php $this->load->view('frontend/layout/cta'); ?>
     
