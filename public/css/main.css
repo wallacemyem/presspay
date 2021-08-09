@@ -1387,21 +1387,21 @@ button:focus {
 
 .btn-bittersweet {
   color: #000;
-  background-color: #ff7272;
-  border-color: #ff7272;
+  background-color: #081a4a;
+  border-color: #081a4a;
 }
 
 .btn-bittersweet:hover {
   color: #000;
-  background-color: #ff8787;
-  border-color: #ff8080;
+  background-color: #081a4a;
+  border-color: #081a4a;
 }
 
 .btn-check:focus + .btn-bittersweet, .btn-bittersweet:focus {
   color: #000;
   background-color: #ff8787;
   border-color: #ff8080;
-  box-shadow: 0 0 0 0.2rem rgba(217, 97, 97, 0.5);
+  box-shadow: 0 0 0 0.2rem #ff8080;
 }
 
 .btn-check:checked + .btn-bittersweet,
@@ -1415,7 +1415,7 @@ button:focus {
 .btn-check:checked + .btn-bittersweet:focus,
 .btn-check:active + .btn-bittersweet:focus, .btn-bittersweet:active:focus, .btn-bittersweet.active:focus,
 .show > .btn-bittersweet.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(217, 97, 97, 0.5);
+  box-shadow: 0 0 0 0.2rem #ff8080;
 }
 
 .btn-bittersweet:disabled, .btn-bittersweet.disabled {
@@ -1426,21 +1426,21 @@ button:focus {
 
 .btn-niagara {
   color: #000;
-  background-color: #099a97;
-  border-color: #099a97;
+  background-color: #ec2133;
+  border-color: #ec2133;
 }
 
 .btn-niagara:hover {
   color: #000;
-  background-color: #2ea9a7;
-  border-color: #22a4a1;
+  background-color: #f75866;
+  border-color: #f75866;
 }
 
 .btn-check:focus + .btn-niagara, .btn-niagara:focus {
   color: #000;
   background-color: #2ea9a7;
   border-color: #22a4a1;
-  box-shadow: 0 0 0 0.2rem rgba(8, 131, 128, 0.5);
+  box-shadow: 0 0 0 0.2rem #f75866;
 }
 
 .btn-check:checked + .btn-niagara,
@@ -1448,13 +1448,13 @@ button:focus {
 .show > .btn-niagara.dropdown-toggle {
   color: #000;
   background-color: #3aaeac;
-  border-color: #22a4a1;
+  border-color: #989b9b;
 }
 
 .btn-check:checked + .btn-niagara:focus,
 .btn-check:active + .btn-niagara:focus, .btn-niagara:active:focus, .btn-niagara.active:focus,
 .show > .btn-niagara.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(8, 131, 128, 0.5);
+  box-shadow: 0 0 0 0.2rem #989b9b;
 }
 
 .btn-niagara:disabled, .btn-niagara.disabled {
@@ -13335,7 +13335,7 @@ ________________________________ */
   Home 8
 ---------------------------------*/
 .promo-area--l8 {
-  background-image: linear-gradient(300deg, #099a97 0%, #099a97 33%, #20aa8e 53%, #20aa8e 53%, #82c4c3 100%);
+  background-image: linear-gradient(300deg, #3f5ba8 0%,  #081a4a 100%);
   position: relative;
 }
 
@@ -15258,7 +15258,7 @@ ________________________________ */
 }
 
 .search-section {
-  background: linear-gradient(261.26deg, rgba(253, 52, 110, 0.96) 14.9%, #b81c5c 43.58%, #0abfbc 89.94%);
+  background: linear-gradient(261.26deg, #081a4a 14.9%, #b81c5c 43.58%, #ec2133 89.94%);
   padding-top: 52px;
   padding-bottom: 40px;
 }
