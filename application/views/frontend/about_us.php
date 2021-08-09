@@ -16,4 +16,5 @@
     <!--/ .Page Title Area -->
 <?php $this->load->view('frontend/layout/about_us') ?>
 <?php $this->load->view('frontend/layout/mission_vision') ?>
+<?php $this->load->view('frontend/layout/cta') ?>
 <?php $this->load->view('frontend/layout/footer') ?>

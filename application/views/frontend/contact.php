@@ -95,4 +95,5 @@
       </div>
     </div>
     <!--/ .contact Area -->
+<?php $this->load->view('frontend/layout/about_us') ?>
 <?php $this->load->view('frontend/layout/footer') ?>

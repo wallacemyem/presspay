@@ -166,5 +166,5 @@
       </div>
     </div>
     <!--/ .Testimonial Area -->
-
-<?php $this->load->view('frontend/layout/footer') ?>
+    <?php $this->load->view('frontend/layout/cta') ?>
+    <?php $this->load->view('frontend/layout/footer') ?>

@@ -47,4 +47,5 @@
         </div>
       </div>
     </div>
+   <?php $this->load->view('frontend/layout/cta') ?>
    <?php $this->load->view('frontend/layout/footer') ?>

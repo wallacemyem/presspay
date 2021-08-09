@@ -46,31 +46,6 @@ class Front extends CI_Controller{
         }
     }
     
-    public function offers()
-    {
-        $var['meta_title'] = "Our Offers - ".@Utils::siteName.' -'.Utils::tagName;
-        $var['meta_description'] = 'What we are offering';
-        $var['keywords'] = "offers ".@Utils::siteName.Utils::keywords;
-        $var['offer'] = "active";
-        $this->load->view(@Utils::Dir.'offers',$var);
-    }
-   
-    public function privacy()
-    {
-        $var['meta_title'] = "Privacy - ".@Utils::siteName.' -'.Utils::tagName;
-        $var['meta_description'] = 'Privacy policy';
-        $var['keywords'] = "privacy ".@Utils::siteName.Utils::keywords;
-        $var['support'] = "active";
-        $this->load->view(@Utils::Dir.'privacy',$var);
-    }
-    public function terms()
-    {
-        $var['meta_title'] = "Terms of Service - ".@Utils::siteName.' -'.Utils::tagName;
-        $var['meta_description'] = 'Terms of service';
-        $var['keywords'] = "terms of service ".@Utils::siteName.Utils::keywords;
-        $var['support'] = "active";
-        $this->load->view(@Utils::Dir.'terms',$var);
-    }
    
     public function gallery()
     {

@@ -66,4 +66,5 @@
       </div>
     </div>
     <!--/ .Content One Area -->
+<?php $this->load->view('frontend/layout/cta') ?>
 <?php $this->load->view('frontend/layout/footer'); ?>
