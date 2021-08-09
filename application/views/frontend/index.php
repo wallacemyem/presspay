@@ -1,5 +1,4 @@
 <?php $this->load->view('frontend/layout/header'); ?>
-
 <!-- Hero Area -->
 <div class="welcome-area welcome-area--l8 position-relative">
       <div class="container">
@@ -47,7 +46,6 @@
         <?php $this->load->view('frontend/layout/savings'); ?>
         <?php $this->load->view('frontend/layout/get_started'); ?>    
         <?php $this->load->view('frontend/layout/testimonial'); ?>
-        <?php $this->load->view('frontend/layout/brands'); ?>
     <!-- promo Area -->
     <div class="promo-area promo-area--l8 bg-default">
       <div class="container">
