@@ -32,7 +32,7 @@
                   <img class="w-100" src="public/image/home-7/hero-l8-1.png" alt="">
                 </div>
                 <div class="hero-l8-img-group__2">
-                  <img class="w-100" src="https://finestdevs.com/demos/fastland-html/image/home-7/hero-l8-2.png" alt="">
+                  <img class="w-100" src="public/image/home-7/hero-l8-2.png" alt="">
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@
         <div class="row justify-content-center justify-content-xl-end">
           <div class="col-xxl-6 col-xl-5 col-lg-5 col-md-7 col-xs-9">
             <div class="promo-image">
-              <img class="w-100" src="https://finestdevs.com/demos/fastland-html/image/home-7/promo-l8-img.png" alt="">
+              <img class="w-100" src="public/image/home-7/promo-l8-img.png" alt="">
             </div>
           </div>
           <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
