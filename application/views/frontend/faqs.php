@@ -55,7 +55,7 @@
                 
                   <div class="tab-content" id="v-pills-tabContent">
                 
-                    <div class="tab-pane fade show" id="student" role="tabpanel" aria-labelledby="student">
+                    <div class="tab-pane fade show active" id="student" role="tabpanel" aria-labelledby="student">
                       <!-- single Accordion -->
                       
                       <div class="accordion accordion--inner" id="accordionExample">
