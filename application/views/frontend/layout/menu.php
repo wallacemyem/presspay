@@ -39,13 +39,13 @@
                       <a href="<?= base_url() ?>about">Learn More</a>
                     </li>
                     <li class="sub-menu--item">
-                      <a href="<?= base_url() ?>refer-a-friend">Refer a Friend</a>
+                      <a href="<?= base_url() ?>refer_a_friend">Refer a Friend</a>
                     </li>
                   </ul>
                         
                 </li>
                 <li class="nav-item nav-item-has-children">
-                  <a href="<?= base_url() ?>our-offers" class="nav-link-item drop-trigger">OUR OFFERS 
+                  <a href="<?= base_url() ?>our_offers" class="nav-link-item drop-trigger">OUR OFFERS 
                   </a>
                   
                 </li>

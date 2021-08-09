@@ -25,22 +25,19 @@
                     <h4 class="footer-widgets__title">Company</h4>
                     <ul class="footer-widgets__list">
                       <li>
-                        <a href="#">About
+                        <a href="<?php base_url() ?>about">About
                           us</a>
                       </li>
                       <li>
-                        <a href="#">Privacy
+                        <a href="<?php base_url() ?>privacy">Privacy
                           Policy</a>
                       </li>
                       <li>
-                        <a href="#">Terms &
+                        <a href="<?php base_url() ?>terms_of_service">Terms &
                           Conditions</a>
                       </li>
                       <li>
-                        <a href="#">Rider</a>
-                      </li>
-                      <li>
-                        <a href="#">Contact</a>
+                        <a href="<?php base_url() ?>contact">Contact</a>
                       </li>
                     </ul>
                   </div>
