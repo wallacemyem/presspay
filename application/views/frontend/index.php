@@ -31,7 +31,7 @@
                   <img class="w-100" src="public/image/home-7/hero-l8-1.png" alt="">
                 </div>
                 <div class="hero-l8-img-group__2">
-                  <img class="w-100" src="https://finestdevs.com/demos/fastland-html/image/home-7/hero-l8-2.png" alt="">
+                  <img class="w-100" src="public/image/home-7/hero-l8-2.png" alt="">
                 </div>
               </div>
             </div>
